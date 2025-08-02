@@ -10,7 +10,16 @@ interface ErrorMessageProps {
 }
 
 export function ErrorMessage({ message, onRetry, onModelChange, currentModels }: ErrorMessageProps) {
-  const alternativeModels = ["gpt-4o", "gpt-3.5-turbo", "gpt-4"]
+  const alternativeModels = [
+    "gpt-4o",
+    "gpt-4o-2024-11-20",
+    "gpt-4.1-2025-04-14",
+    "gpt-4o-mini-2024-07-18",
+    "o4-mini-2025-04-16",
+    "codex-mini-latest",
+    "gpt-3.5-turbo",
+    "gpt-4",
+  ]
 
   return (
     <Alert variant="destructive" className="mb-4">

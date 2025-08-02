@@ -264,10 +264,17 @@ export default function Home() {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="gpt-4o-mini">GPT-4o Mini</SelectItem>
+                  <SelectItem value="gpt-4o-mini-2024-07-18">GPT-4o Mini 2024-07-18</SelectItem>
+                  <SelectItem value="o4-mini-2025-04-16">O4 Mini 2025-04-16</SelectItem>
                   {/* <SelectItem value="o1-mini">O1 Mini</SelectItem> */}
                   {/* <SelectItem value="o1-preview">O1 Preview</SelectItem> */}
                   {/* <SelectItem value="o3-mini">O3 Mini</SelectItem> */}
                   <SelectItem value="gpt-4o">GPT-4o</SelectItem>
+                  <SelectItem value="gpt-4o-2024-08-06">GPT-4o 2024-08-06</SelectItem>
+                  <SelectItem value="gpt-4o-2024-11-20">GPT-4o 2024-11-20</SelectItem>
+                  <SelectItem value="gpt-4.1-2025-04-14">GPT-4.1 2025-04-14</SelectItem>
+                  <SelectItem value="gpt-4.1-mini-2025-04-14">GPT-4.1 Mini 2025-04-14</SelectItem>
+                  <SelectItem value="codex-mini-latest">Codex Mini Latest</SelectItem>
                   <SelectItem value="gpt-3.5-turbo">GPT-3.5 Turbo</SelectItem>
                   <SelectItem value="gpt-4">GPT-4</SelectItem>
                 </SelectContent>
